@@ -1,0 +1,52 @@
+.container{
+	margin:  30px 100px;
+}
+nav ul li{
+	display: inline-block;
+	cursor: pointer;
+	padding-left: 40px;
+}
+body{
+	background: #ced3d6;
+}
+.block{
+	border-radius: 4px;
+	min-height: 100px;
+	min-width: 250px;
+	margin: 10px 22px;
+	float: left;
+
+}
+.pink{
+	border:5px solid #e053d7;
+}
+.red{
+	border:5px solid #a353e0;
+}
+
+.blue{
+	border:5px solid #5553e0;
+}
+
+.green{
+	border:5px solid #53e0bf;
+}
+
+.hide{
+	animation-name: a1;
+	animation-duration: 5s;
+	animation-fill-mode: forwards;
+
+}
+@keyframes a1{
+	to{
+		/*border:5px solid #a353e0;*/
+		opasity: 0;
+		min-width: 0;
+		min-height: 0;
+		border: 0;
+		padding:  0;
+		margin: 0;
+	}
+
+}
